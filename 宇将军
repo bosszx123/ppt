@@ -1,0 +1,5 @@
+mkdir docs          # 创建本地文件夹
+touch docs/test.md  # 在文件夹内创建一个文件（Git 不跟踪空文件夹）
+git add .
+git commit -m "创建 docs 文件夹"
+git push origin main
